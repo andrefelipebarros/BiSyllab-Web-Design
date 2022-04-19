@@ -17,5 +17,5 @@ Caso você queira ver o site estarei disponibilizando ele aqui:
 https://www.bisyllab.tk
 
 
-<a href= "https://www.bisyllab.tk/Img/logo.png" alt="Logo Website">
+<a href="https://picasion.com/"><img src="https://i.picasion.com/pic92/35ceb35d49872dca16c718683433a7f4.gif" width="400" height="103" border="0" alt="https://picasion.com/" /></a><br /><a href="https://picasion.com/">https://picasion.com/</a>
 
