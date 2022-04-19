@@ -1,0 +1,461 @@
+
+html {
+
+    transition: .3s    ;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+body {
+    background-color: #eeeee4;
+
+}
+
+.total {
+    margin: 0 auto;
+    width: 60rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 15rem 3rem;
+    font-size: 3rem;
+    transition: all 400ms;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.hoje {
+    font-style: italic;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    line-height: 2rem;
+}
+.plano-basico h2{
+    
+    text-align: center;
+
+}
+.plano-basico {
+    padding: 1rem 1.5rem;
+    width: 25rem;
+    transition: all 1s ease-in-out;
+}
+
+.plano-basico:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+
+.plano-premium {
+    padding: 1rem 1.5rem;
+    width: 25rem;
+    transition: all 1s ease-in-out;
+}
+
+.plano-premium:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.plano-diamond {
+    padding: 1rem 1.5rem;
+    width: 25rem;
+    transition: all 1s ease-in-out;
+}
+
+.plano-diamond:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 15px;
+    margin: 0 0 50px 0;
+    background-color: #011F55;
+    color: white;
+    line-height: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.plano-basico > ul li {
+    font-family: 'Dosis', sans-serif;
+    padding: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.plano-basico > ul li::before {
+    content: "• ";
+}
+
+.plano-premium > ul li {
+    font-family: 'Dosis', sans-serif;
+    padding: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.plano-premium > ul li::before {
+    content: "• "
+}
+
+.plano-diamond > ul li {
+    font-family: 'Dosis', sans-serif;
+    padding: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.plano-diamond > ul li::before {
+    content: "• "
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin: 2em auto;
+}
+
+
+
+.video-externo {
+    position: relative;
+    left: 31%;
+}
+
+
+
+
+.Menu {
+
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+nav{
+    width: 80%;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    padding: 30px 0;
+    display: inline-block;
+    margin: 10px 10px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+
+.btn-link {
+    text-decoration: none;
+    border: 1px solid #011F55;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    background-color: #011F55;
+    color:white;
+    border-radius: 8px;
+    
+    text-transform: uppercase;
+
+}
+
+.btn-link:hover{
+    box-shadow: 2px 2px 2px #2553a9;
+}
+
+
+
+/*SESSAO EXPLORAR SESSAO 1*/
+#sessao1 ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#sessao1 img {
+    top: 10px;
+    width: 400px;
+
+}
+
+.texto-menu h1 {
+    position:relative;
+    text-align: center;
+    top: -150px;
+    font-family: 'Kanit', sans-serif;
+    color: #011F55;
+    zz-index: 999;
+}
+
+.texto-menu img {
+    width: -200px;
+    align-items: center;
+}
+
+#seta {
+    color: #011F55;
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #011F55 inset;
+    border: solid transparent;
+    border-width: 0 0 1px 1px;
+    transform: rotate(270deg);
+    right: 730px;
+    top: 550px;
+    animation: is-boucing 1s ease-in-out alternate infinite;
+    display:grid;
+}
+
+
+@keyframes is-boucing {
+    to{
+        transform: translateY(50px);
+        transform: translateX(0px);
+    }
+  }
+
+
+
+
+/*SESSAO CONTATOS SESSAO 2*/
+
+  
+
+
+
+
+
+/*LOGO DAS PARADA SESSAO 3 CONTATOS*/
+
+.Contatos {
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.bxl-facebook {
+    
+    font-size: 60px;
+    color: black;
+    
+}
+
+.bxl-instagram {
+    
+    font-size: 60px;
+    color: black;
+}
+
+.bxl-twitter {
+
+    font-size: 60px;
+    color: black;
+}
+
+.bxl-whatsapp {
+
+    font-size: 60px;
+    color: black;
+}
+
+/*SESSAO PARCERIAS SESSAO 4*/
+
+/*PARCERIAS*/
+.caixa {
+    margin: 100px 0 0 0;
+    float: right;
+}
+
+.titulo {
+    color: #011F55;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    top:  100px;
+}
+
+.retangulo {
+    height: 25rem;
+    width: 50rem;
+    background-color: rgb(174, 174, 174);
+    
+    
+
+}
+
+.grades {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 190px;
+    padding: 5px;
+    grid-gap: 5px;
+}
+
+.imagem {
+    margin: 100px 0 0 0;
+    float: left;
+    margin-top: 260px;
+}
+
+.imagem img{
+    position: relative;
+    right: -130px;
+    top: -90px;
+}
+
+/*SESSAO SUPORTE*/
+
+
+
+.suporte img{
+    position:relative;
+    text-align: center;
+    top: 400px;
+    right: 200px;
+    
+}
+
+
+
+.caixa-3 h1 {
+    position:relative;
+    text-align: center;
+    top: -200px;
+    right: -400px;
+}
+
+.caixa-3 img {
+    position:relative;
+    text-align: center;
+    top: -200px;
+    right: -450px;
+}
+
+.suporte-bot img {
+    position:relative;
+    top: -300px;
+    left: 580px;
+    background-color: #2553a9;
+    border-radius: 10%;
+}
+
+
+
+.imagem-caixa-final img {
+    position:relative;
+    top: 180px;
+    right: -50px;
+}
+
+.titulo-portifolio h2 {
+  
+  border-radius: 20%;
+  text-align: center;
+
+}
+
+.content {
+    height: 350px;
+    width: 635px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    right: -400px;
+    top: 250px;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.75);
+}
+
+.content .slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.navigation {
+    position: relative;
+    bottom: 275px;
+    left: 330px;
+    display: flex;
+}
+
+.bar {
+    width: 15px;
+    height: 15px;
+    border: 2px solid darkslategray;
+    margin: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .5s ease;
+
+}
+
+.bar:hover {
+    background-color: #eeeee4;
+}
+
+.carrossel img {
+  position: absolute;
+  top: 3900px;
+  right: 80px;
+}
+
+input {
+  display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .8s;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+} 
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+} 
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+} 
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+} 
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
