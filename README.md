@@ -17,5 +17,5 @@ Caso você queira ver o site estarei disponibilizando ele aqui:
 https://www.bisyllab.tk
 
 
-
+<img src="LogoBi.png" alt="Logo Website">
 
