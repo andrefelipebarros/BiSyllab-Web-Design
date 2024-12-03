@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     
+    <h1>Formulário de Contato</h1>
+    <form
+      action="https://formsubmit.co/bi.syllab@gmail.com"
+      method="POST"
+      class="form"
+    >
+      <label for="name">Nome</label>
+      <input type="text" name="name" id="name" required />
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+      <label for="message">Descrição</label>
+      <textarea name="message" id="message" placeholder="Descreva aqui a sua empresa e como vc quer que seja o seu site" required></textarea>
+      <input
+        type="hidden"
+        name="_next"
+        value="bisyllab.tk/obrigado.html"
+      />
+      <button type="submit">Enviar</button> 
+      <img src="Img/Logoazul.png" alt="" width="400px">
+    </form>
+  </body>
+</html>
